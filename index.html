@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome Icons (Phone, Email, Location icons-inu vendi) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    /* Custom Navbar Sky-Blue Color */
+    .custom-navbar {
+      background-color: #7cc4e8;
+      
+    }
+    /* Custom Download CV Button */
+    .btn-cv {
+      background-color: #0b16c5;
+      color: white;
+      border: 2px solid #000;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+      border-radius: 5px;
+      padding: 8px 18px;
+      font-weight: 500;
+    }
+    .btn-cv:hover {
+      background-color: #070e8c;
+      color: white;
+    }
+    /* Pink/Violet Name Color */
+    .name-highlight {
+      color: #c58af9;
+    }
+    /* Blue Heading Color */
+    .heading-blue {
+      color: #0b16c5;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. NAVBAR -->
+  <nav class="navbar navbar-expand-lg custom-navbar px-4 py-2 sticky-top">
+    <div class="container-fluid">
+      <!-- Left Logo -->
+      <a class="navbar-brand" href="#home">
+        <img src="https://static.vecteezy.com/system/resources/previews/004/753/030/non_2x/portfolio-icon-shadowed-detailed-portfolio-logo-free-vector.jpg" alt="Logo" width="100" height="100" class="rounded-circle">
+      </a>
+
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Right Side Links (Home & About) -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-4 pe-5">
+          <li class="nav-item">
+            <a class="nav-link fw-semibold text-dark" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-semibold text-dark" href="#about">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. HERO SECTION (HOME) -->
+  <section id="home" class="container-fluid px-2 py-5 min-vh-100 d-flex align-items-center">
+    <div class="row align-items-center w-100">
+      
+      <!-- Left Text Column -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h1 class="fw-bold mb-3">
+          Hi , I am <span class="name-highlight">John Doe</span>
+        </h1>
+        <p class="text-dark mb-4" style="font-size: 0.95rem; line-height: 1.6;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, esse. Eum saepe repudiandae nihil asperiores voluptates similique eligendi fugiat? Quam alias quos cupiditate aut quo quas praesentium error reiciendis aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perferendis eveniet quaerat fugit. Placeat dolores saepe omnis obcaecati, architecto error incidunt dolorum! Labore rem deserunt doloremque repellat totam! Reprehenderit, nostrum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nisi corrupti nobis quis, nihil qui? Natus ut explicabo eligendi nisi quasi. Tempore aspernatur maxime saepe. Totam nam minus soluta sunt!
+        </p>
+        <a href="#" class="btn btn-cv">Download CV</a>
+      </div>
+
+      <!-- Right Illustration Column -->
+      <div class="col-lg-6 text-center">
+        <img src="https://png.pngtree.com/png-clipart/20231002/original/pngtree-software-development-isometric-web-concept-png-image_13227517.png" alt="Developer Illustration" class="img-fluid">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3. ABOUT US & CONTACT SECTION -->
+  <section id="about" class="container-fluid px-5 py-5 min-vh-100 d-flex align-items-center">
+    <div class="row align-items-center w-100">
+      
+      <!-- Left Illustration Column -->
+      <div class="col-lg-6 text-center mb-4 mb-lg-0">
+        <img src="https://img.magnific.com/free-vector/ui-ux-designers-isometric-composition-with-small-people-creating-custom-design-web-site-3d-vector-illustration_1284-68939.jpg?semt=ais_hybrid&w=740&q=80" alt="About Illustration" class="img-fluid">
+      </div>
+
+      <!-- Right Text & Contact Column -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold heading-blue mb-3">About Us</h2>
+        <p class="text-dark mb-3" style="font-size: 0.95rem; line-height: 1.6;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ducimus et dicta sint quia repellat laborum. Mollitia dolore quas asperiores magni inventore beatae odio, labore, pariatur explicabo dicta, officia commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio inventore perspiciatis voluptatibus accusamus ipsum, atque cumque alias totam neque? Perferendis consequatur, natus nam blanditiis dolore nihil necessitatibus! Beatae, assumenda eligendi!
+        </p>
+
+        <h5 class="fw-bold heading-blue mt-4 mb-3">Contact Us</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <i class="fa-solid fa-phone me-2"></i> Phone : 9876543210
+          </li>
+          <li class="mb-2">
+            <i class="fa-solid fa-envelope me-2"></i> Email : uday@gmail.com
+          </li>
+          <li class="mb-2">
+            <i class="fa-solid fa-location-dot me-2"></i> Address : Calicut,Kuttiady,4545
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
